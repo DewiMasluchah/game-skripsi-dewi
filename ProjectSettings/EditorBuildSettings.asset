@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Main Menu.unity
+    guid: 681545bc7130a99488005d3514c4cf7e
+  - enabled: 1
+    path: Assets/Scenes/kuis.unity
+    guid: 527ed9407e7caa84ea8b3ff3f4428e7d
+  - enabled: 1
+    path: Assets/Scenes/Menu AR 1.unity
+    guid: b92bdee80482551458fd5cec94cf0697
+  - enabled: 1
+    path: Assets/Scenes/Menu AR 2.unity
+    guid: d1f40544c91bb884f81749ac79f1587d
+  - enabled: 1
+    path: Assets/Scenes/Planet.unity
+    guid: 081cd2bcbf0d30841943717710015cd6
+  - enabled: 1
+    path: Assets/Scenes/asteroid.unity
+    guid: ac533c3224721384682cb1ecf5adf58f
+  - enabled: 1
+    path: Assets/Scenes/video planet.unity
+    guid: 9eba0cc9c67eaeb419a5ff7f35ed93ac
+  - enabled: 1
+    path: Assets/Scenes/video asteroid.unity
+    guid: 8ddb342b31047da49b480d9a374eade5
+  m_configObjects: {}

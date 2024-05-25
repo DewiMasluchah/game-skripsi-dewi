@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="planet" size="10.000000 13.886010" />
+    <ImageTarget name="matahari" size="10.000000 13.886010" />
+    <ImageTarget name="bumidansatelitnya" size="10.000000 13.886010" />
+    <ImageTarget name="asteroid" size="10.000000 13.886010" />
+    <ImageTarget name="satelit" size="10.000000 13.886010" />
+  </Tracking>
+</QCARConfig>

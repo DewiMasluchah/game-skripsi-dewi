@@ -19,6 +19,7 @@ public class Soal : MonoBehaviour
     int indexSoal;
     int maxSoal;
     bool ambilSoal;
+    
 
 
     [SerializeField] Sprite[] pathSoal;
@@ -41,7 +42,7 @@ public class Soal : MonoBehaviour
     public GameObject panel;
     public GameObject imgPenilaian, imgHasil, hasilPanel;
     public Text txtHasil;
-    public TextMeshProUGUI txtHasilMateri1, txtHasilMateri2;
+    public TextMeshProUGUI txtHasilMateri1, txtHasilMateri2, txtHasilMateriPlanet, txtHasilMateriAsteroid, txtHasilMateriBumidanSatelitnya, txtHasilMateriMatahari;
 
     [SerializeField] TestData testData;
     public float[] scores;
@@ -145,6 +146,7 @@ public class Soal : MonoBehaviour
 
         if (huruf.Equals(kunciJ))
         {
+            testData.rightAnswer[bab]+= 1;
             BenarObj.SetActive(true);
             SalahObj.SetActive(false);
             jwbBenar++;
@@ -156,6 +158,7 @@ public class Soal : MonoBehaviour
         }
         else
         {
+            testData.wrongAnswer[bab]+= 1;
             SalahObj.SetActive(true);
             BenarObj.SetActive(false);
             jwbSalah++;
@@ -164,7 +167,7 @@ public class Soal : MonoBehaviour
             testData.durasi[bab] += durasiPenilaian;
             testData.kesulitan[bab] += 5;
         }
-
+    
     }
     IEnumerator penilaian()
     {
@@ -200,6 +203,11 @@ public class Soal : MonoBehaviour
                     txtHasilMateri1.SetText("Berdasarkan hasil tes yang kamu lakukan, kamu perlu mempelajari");
 
                     txtHasilMateri2.SetText(hasilRanking);
+
+                    txtHasilMateriPlanet.SetText("Materi Planet Benar:" + testData.rightAnswer[0] +", Salah:" + testData.wrongAnswer[0]);
+                    txtHasilMateriAsteroid.SetText("Materi Asteroid Benar:" + testData.rightAnswer[1] +", Salah:"+ testData.wrongAnswer[1]);
+                    txtHasilMateriBumidanSatelitnya.SetText("Materi Bumi dan Satelitnya Benar:" + testData.rightAnswer[2] +", Salah:"+ testData.wrongAnswer[2]);
+                    txtHasilMateriMatahari.SetText("Materi Matahari Benar:" + testData.rightAnswer[3] +", Salah:"+ testData.wrongAnswer[3]);
                 }
 
 

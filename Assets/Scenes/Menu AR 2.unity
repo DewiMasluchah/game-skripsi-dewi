@@ -1147,7 +1147,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670517e8186c1ec439a5f7bf0d9120c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: video planet
+  scene: video asteroid
 --- !u!1 &776421112
 GameObject:
   m_ObjectHideFlags: 0
@@ -3419,7 +3419,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 670517e8186c1ec439a5f7bf0d9120c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: Planet
+  scene: asteroid
 --- !u!1 &1572128092
 GameObject:
   m_ObjectHideFlags: 0

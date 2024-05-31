@@ -50,8 +50,8 @@ public class Topsis : MonoBehaviour
         alternatif = new MenuAR[maxMateri];
         alternatif[0] = new MenuAR("Menu AR 1", "PLANET");
         alternatif[1] = new MenuAR("Menu AR 2", "ASTEROID");
-        alternatif[2] = new MenuAR("Menu AR 3", "bumi dan satelitnya");
-        alternatif[3] = new MenuAR("Menu AR 4", "matahari");
+        alternatif[2] = new MenuAR("Menu AR 1", "PLANET");
+        alternatif[3] = new MenuAR("Menu AR 2", "ASTEROID");
         /*
                 print(alternatif[0]);*/
        /* dm = new float[4, 3] { { 25, 57.88873f, 50 }, { 21, 39.443528f, 25 }, { 13, 47.08836f, 75 }, { 5, 67.55346f, 30 } };*/

@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: game skripsi
+  productName: game tata surya
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -263,8 +263,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: '{inproject}: '
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: '{dedicated}: user.keystore'
+  AndroidKeyaliasName: tata
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -949,6 +949,7 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 1
   platformCapabilities:
     WindowsStoreApps:
+      EnterpriseAuthentication: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -960,7 +961,6 @@ PlayerSettings:
       PrivateNetworkClientServer: False
       InternetClientServer: False
       VideosLibrary: False
-      BackgroundMediaPlayback: False
       Objects3D: False
       RemoteSystem: False
       BlockedChatMessages: False
@@ -983,9 +983,9 @@ PlayerSettings:
       RecordedCallsFolder: False
       Contacts: False
       InternetClient: True
-      Proximity: False
       CodeGeneration: False
-      EnterpriseAuthentication: False
+      BackgroundMediaPlayback: False
+      Proximity: False
   metroTargetDeviceFamilies:
     Desktop: False
     Holographic: False

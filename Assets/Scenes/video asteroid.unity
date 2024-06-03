@@ -753,6 +753,7 @@ GameObject:
   - component: {fileID: 1029986394}
   - component: {fileID: 1029986393}
   - component: {fileID: 1029986392}
+  - component: {fileID: 1029986397}
   m_Layer: 0
   m_Name: ImageTarget
   m_TagString: Untagged
@@ -917,6 +918,9 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: 8a9a760f95896c34689febc965510927, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PreviewVisible: 1
+  RuntimeOcclusion: 0
+  RuntimeCollider: 0
   mTrackableName: asteroid
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/TataSurya3.xml
@@ -925,6 +929,29 @@ MonoBehaviour:
   mWidth: 10
   mHeight: 17.777779
   mRuntimeTexture: {fileID: 0}
+  mMotionHint: 1
+  mTrackingOptimization: 0
+  mTrackingOptimizationNeedsUpgrade: 1
+  mPreview: {fileID: 1029986397}
+--- !u!114 &1029986397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1029986390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1778676317, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mObserverBehaviour: {fileID: 1029986396}
+  mHiddenRoot: {fileID: 0}
+  mTargetName: asteroid
+  mDatasetName: Vuforia/TataSurya3.xml
+  mCastedBehaviour: {fileID: 1029986396}
+  mMeshFilter: {fileID: 0}
+  mMeshRenderer: {fileID: 0}
 --- !u!1 &1211573108
 GameObject:
   m_ObjectHideFlags: 0
@@ -2237,7 +2264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!1 &6364186110935047594
 GameObject:
   m_ObjectHideFlags: 0
